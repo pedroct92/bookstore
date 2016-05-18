@@ -1,4 +1,4 @@
-#Bookstore# 
+#Bookstore
 
 The application basically provides a CRUD for books. A REST service was build to provide the backend features and the frontend there is JQuery client.
 
