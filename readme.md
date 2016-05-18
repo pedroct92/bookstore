@@ -28,4 +28,4 @@ spring.datasource.password=password</code></pre>
 
 Hibernate is set to <code> spring.jpa.hibernate.ddl-auto=update </code> update the database when the server is started so in order to create the tables you just have to create the database and it will create all the tables for you. 
 
-On the project directory run <code> mvn exec:java </code> spring boot will start an embedded tomcat running on the 8080 port. 
+On the project directory run <code> mvn clean install exec:java </code> spring boot will start an embedded tomcat running on the 8080 port. 
